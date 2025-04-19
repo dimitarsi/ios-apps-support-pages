@@ -33,7 +33,7 @@
         </main>
     </div>
 </template>
-<script lang="ts">
+<script lang="ts" setup>
     useHead({
         link: [
             {
