@@ -1,13 +1,7 @@
 <template>
     <div class="grid min-h-screen grid-cols-1 md:grid-cols-6 funnel-display">
         <aside class="bg-gray-900 col-span-1 px-4 pt-20 text-white">
-            <p class="text-md">Support</p>
-            <h1 class="text-3xl">Funny Games For Kids</h1>
-            <div class="mb-20" />
-            <nav class="flex flex-col">
-                <NuxtLink to="/unitygamesforkids#about-the-game">About the Game</NuxtLink>
-                <NuxtLink to="/unitygamesforkids#contacts">Contacts</NuxtLink>
-            </nav>
+            <SidebarNav />
         </aside>
         <main class="col-span-5 px-4 pt-20">
             <div id="about-the-game">
@@ -34,6 +28,8 @@
     </div>
 </template>
 <script lang="ts" setup>
+    import SidebarNav from '~/components/sidebar/nav.vue'
+
     useHead({
         link: [
             {
