@@ -5,7 +5,8 @@
         </aside>
         <main class="col-span-5 px-4 pt-20">
             <div id="about-the-game">
-                <h3 class="text-xl my-5">Funny Games for Kids (iOS)</h3>
+                <p>Funny Games for Kids (iOS)</p>
+                <h3 class="text-xl my-5">Privacy Policy</h3>
                 <p>The application does not collect any user data.</p>
                 <p>In case this changes in future, always check this page for updates</p>
             </div>
